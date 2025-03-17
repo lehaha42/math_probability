@@ -1,6 +1,6 @@
 
 
-def main(n):
+def main(n = -1):
     arr = [16, 7, 16]
     for j in range(len(arr)) if (n >= len(arr) or n < 0) else [n]:
         for i in range(arr[j]):
@@ -10,4 +10,4 @@ def main(n):
 
 
 if __name__ == '__main__':
-    main(0)
+    main()
