@@ -8,6 +8,10 @@ def A(a, b):
     return fact(b)/fact(b-a)
 
 
+def P(a, b, c):
+    return C(a, b) * c**a * (1-c)**(b-a)
+
+
 def fact(n):
     if n<2:
         return 1
