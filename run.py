@@ -1,7 +1,7 @@
 
 
 def main(n = -1):
-    arr = [16, 7, 16]
+    arr = [16, 7, 16, 10]
     for j in range(len(arr)) if (n >= len(arr) or n < 0) else [n]:
         for i in range(arr[j]):
             print(f'laba {j+1} task {i+1}:')
