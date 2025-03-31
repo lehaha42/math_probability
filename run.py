@@ -10,4 +10,4 @@ def main(n = 0):
 
 
 if __name__ == '__main__':
-    main(4)
+    main()
